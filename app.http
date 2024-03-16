@@ -1,0 +1,12 @@
+GET http://localhost:3000/players
+
+###
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+   "id":5, 
+  "playerName": "Bhadra",
+  "jerseyNumber": 6,
+  "role": "All Rounder"
+}
