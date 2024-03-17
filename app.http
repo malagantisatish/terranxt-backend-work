@@ -10,3 +10,18 @@ Content-Type: application/json
   "jerseyNumber": 6,
   "role": "All Rounder"
 }
+
+###
+
+PUT http://localhost:3000/players/2/
+Content-Type: application/json
+
+{
+  "playerName": "Bhadra",
+  "jerseyNumber": 6,
+  "role": "All Rounder"
+}
+
+
+###
+DELETE  http://localhost:3000/players/5/
